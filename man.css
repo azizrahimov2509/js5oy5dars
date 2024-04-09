@@ -87,4 +87,27 @@ opacity: 0.5;
     font-size: 25px;
     font-weight: 500;
     padding: 8px;
+    text-align: center;
+}
+
+@media (max-width:450px) {
+    .container{
+        height: 330px;
+        width: 550px;
+        background-color:  #344756;
+        border-radius: 10px;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center; 
+        margin: 0 auto;
+    }
+
+    .show {
+        display: block; 
+        font-size: 25px;
+        font-weight: 500;
+        padding: 8px;
+        text-align: center;
+    }
 }
