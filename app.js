@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+    
     const startingMinutes = +prompt("Minutda raqam kiriting:");
     let time = startingMinutes * 60;
     let alert1 = document.getElementById("alert1");
