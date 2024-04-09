@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (time <= 10 && time !==0) {
             alert1.classList.add('show');
             countdownEl.style.color = "red";
-            alert1.textContent = "Vaqtingiz 10 sekuntdan kam qildi!!!";
+            alert1.textContent = " Vaqtingiz 10 sekuntdan kam qoldi!!! ";
             alert1.style.display ="block";
             alert1.style.color ="red";
         }else if(time===0){
