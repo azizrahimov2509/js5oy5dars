@@ -63,6 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
         startTimer(); 
         stopBtn.disabled = false;
         resetBtn.disabled = false;
+        alert1.style.display ="none";
     });
 
 
@@ -85,5 +86,6 @@ document.addEventListener("DOMContentLoaded", function() {
         time = startingMinutes * 60; 
         updateCountdown(); 
         startBtn.disabled = false; 
+        alert1.style.display ="none";
     });
 });
