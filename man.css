@@ -7,6 +7,7 @@
 
 .section{
     background-image:url(images/1613223389_134-p-fon-sinii-les-201.jpg);
+    background-color: rgb(3, 3, 31);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,8 +63,13 @@
     border: none;
     font-size: 26px;
     border-radius: 25px;
+    color: black;
 }
 
+
+.buttons .btn:disabled{
+opacity: 0.5;
+}
 .buttons .btn:hover{
     cursor: pointer;
     box-shadow: -0px 1px 2px 0px rgba(0,255,255,0.7),
@@ -74,4 +80,11 @@
 
 .buttons .btn:active{
     opacity: 0.8;
+}
+
+.show {
+    display: block; 
+    font-size: 25px;
+    font-weight: 500;
+    padding: 8px;
 }
